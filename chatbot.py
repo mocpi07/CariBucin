@@ -80,7 +80,7 @@ def reg_age(message):
 def reg_sex(message):  
     sex = message.text
     user = user_dict[message.from_user.id]
-    if (sex == u'cowo👦') or (sex == u'Cewe👩🏻'):
+    if (sex == u'Cowo👦') or (sex == u'Cewe👩🏻'):
         user.sex = sex
         mark = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True)
         mark.add('Cowo👦', 'Cewe👩🏻', 'Cowo and Cewe👀')
