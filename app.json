@@ -9,22 +9,22 @@
     },
     "OWNER": {
       "description": "Fill in your username without the sign @",
-      "value": "AmiFutami"
+      "value": "xycye"
     },
     "GROUP": {
       "description": "Fill it with your group username without the @ sign, if you don't have it, don't fill it in",
       "required": false,
-      "value": "SafoTheBot"
+      "value": "GabutIsUsOfficial"
     },
     "BOT_NAME": {
       "description": "Fill in the name of your bot",
       "required": false,
-      "value": "Anonymous ChatBot"
+      "value": "Cari Bucinbot"
     },
     "CHANNEL": {
       "description": "Fill it with your channel username without the @ sign, if you don't have it, don't fill it in",
       "required": false,
-      "value": "AsmSafone"
+      "value": "Userbot7STAR"
     }
   }
 }
