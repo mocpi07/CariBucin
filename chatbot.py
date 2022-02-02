@@ -55,7 +55,7 @@ def reg_name(message):
         user = User(message.from_user.id)
         user_dict[message.from_user.id] = user
         user.name = message.text
-        bot.send_message(message.from_user.id, "*Umuru Kamu🥺 :*", parse_mode="markdown")
+        bot.send_message(message.from_user.id, "*Umur Kamu🥺 :*", parse_mode="markdown")
         bot.register_next_step_handler(message, reg_age)
 
     else:
